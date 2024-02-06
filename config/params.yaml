@@ -22,7 +22,7 @@
     laser2XOff: 0.3
     laser2YOff: 0.475
     laser2ZOff: 0.176
-    pointCloudTopic: cloud_in
+    pointCloudTopic: cloud_in #this is the topic to be published and subscribed by pc2laserscan
     pointCloutFrameId: laser
     qos_overrides./parameter_events.publisher.depth: 1000
     # qos_overrides./parameter_events.publisher.durability: volatile
